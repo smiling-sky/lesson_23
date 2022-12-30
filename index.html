@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>lesson 21</title>
+</head>
+<body>
+    <div class="lesson__container">
+        <div class="block block-1">
+            <h2 class="title">Видео про Операторы</h2>
+            <div class="example">
+                <p class="false">Вариант 1 - не верно:</p>
+                <p>Если хоть один операнд является строкой, то оператор бинарный оператор сложения будет складывать их как строки</p>
+                <p>console.log('35' + - "22");</p>
+            </div>
+            <div class="example">
+                <p class="true">Вариант 2 верный.</p>
+            </div>
+            <div class="example">
+                <p class="false">Вариант 3 - не верно:</p>
+                <p>Инкримент применяется только к переменной.</p>
+            </div>
+            <div class="example">
+                <p class="false">Вариант 4 - не верно:</p>
+                <p>В консоль выведет "0". Постфиксный инкимент сработает после следующего кода.</p>
+            </div>
+            <div class="example">
+                <p class="false">Вариант 5 - не верно:</p>
+                <p>Ответом будет 11. </p>
+                <p>console.log(!false && 11 || 18 && !'');</p>
+                <p>console.log(true && 11 || 18 && false);</p>
+                <p>console.log(11 || false);</p>
+                <p>console.log(11);</p>
+            </div>
+            <div class="example">
+                <p class="false">Вариант 6</p>
+                <p>В консоль выведет "0".Переменная name не Null/undefind </p>
+            </div>
+        </div>
+        <div class="block block-2">
+            <h2 class="title">Видео про Условное ветвление</h2>
+            <div class="example">
+                <p class="false">Вариант 1 - Ложь</p>
+                <p>При строгом равно, условие вернет False , складывается число и строка</p>
+            </div>
+            <div class="example">
+                <p class="true">Вариант 2 - Истина</p>
+                <p>При не строгом равно, вернется  true, поскольку строка преобразуется в числовой тип данных</p>
+            </div>
+            <div class="example">
+                <p class="true">Вариант 3 - Истина</p>
+                <p>При двух True, оператор && вернет значение последного.А оно является True т.е Истина</p>
+            </div>
+            <div class="example">
+                <p class="true">Варианты 4 - истина</p>
+                <p>
+                    Будет выполняться второе условие. Первое вернет False, втроое будет true
+                </p>
+            </div>
+        </div>      
+        <div class="block block-3">
+            <h2 class="title">Видео про циклы</h2>
+            <div class="example">
+                <p class="false">Задача 2 - Ложь</p>
+                <p>Последний результать 1</p>
+            </div>
+            <div class="example">
+                <p class="false">Остальные задачи в файле JS</p>
+            </div>
+        </div>      
+        <div class="block block-4">
+            <h2 class="title">Видео про тип данных  Number</h2>
+            <div class="example">
+                <p class="false">Задачи в файле JS</p>
+            </div>
+        </div>  
+        <div class="block block-4">
+            <h2 class="title">Видео про тип данных String</h2>
+            <div class="example">
+                <p class="false">Задачи в файле JS</p>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
